@@ -1,0 +1,1 @@
+powershell "start C:\Windows\system32\cmd.exe -v runAs"

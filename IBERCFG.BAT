@@ -1,0 +1,11 @@
+SET CHECKFILEPATH=C:\BootDrv\Aloha\CHECK
+
+COPY %LOCALDIR%\newbin\*.* %LOCALDIR%\bin
+ECHO y | DEL %LOCALDIR%\newbin\*.*
+START  %LOCALDIR%\BIN\IBER.EXE
+
+
+
+
+
+
